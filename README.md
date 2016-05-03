@@ -1,4 +1,5 @@
-[![Build Status](https://travis-ci.org/Automattic/_s.svg?branch=master)](https://travis-ci.org/Automattic/_s)
+# Wordpress theme for [https://hartl.co](https://hartl.co)
+This is a for of the popular _s theme, see original readme below:
 
 _s
 ===
