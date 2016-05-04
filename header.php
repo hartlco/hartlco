@@ -40,7 +40,7 @@
 					<img class="ava" src="https://hartl.co/wp-content/uploads/2016/02/2015-near.jpg" width="140rem" height="140rem" alt="Image of Martin Hartl">
 			        <div class="custom-links">
 			            <a href="https://hartl.co/about-me/" target="_self">About me</i></a>&nbsp;&nbsp;
-			            <a href="https://twitter.com/mhaddl" target="_blank">Twitter</i></a>&nbsp;&nbsp;
+			            <a href="https://twitter.com/hartlco" target="_blank">Twitter</i></a>&nbsp;&nbsp;
 			            <a href="https://github.com/hartlco" target="_blank">Github</i></a>&nbsp;&nbsp;
 			            <a href="https://hartl.co/apps" target="_blank">Apps</a>&nbsp;&nbsp;
 			            <a href="mailto:&#104;&#105;&#064;&#104;&#097;&#114;&#116;&#108;&#046;&#099;&#111;">Mail</a>&nbsp;&nbsp;
