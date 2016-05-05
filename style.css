@@ -885,8 +885,7 @@ a:active {
 	font-style: normal;
 	font-size: 1.8rem;
 	line-height: 1.1;
-	-webkit-margin-after:5px;
-	margin-bottom: 5px;
+	margin-bottom: 0.8rem;
 }
 
 .sticky {

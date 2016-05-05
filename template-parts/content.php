@@ -28,10 +28,6 @@
 			}
 
 		if ( 'post' === get_post_type() ) : ?>
-		<div class="entry-meta">
-			<?php hartlco_posted_on(); ?>
-			<a href="<?php echo get_permalink(); ?>">∞</a>
-		</div><!-- .entry-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
@@ -50,6 +46,9 @@
 		?>
 	</div><!-- .entry-content -->
 
+	<div class="entry-meta">
+		<?php hartlco_posted_on(); ?>
+	</div><!-- .entry-meta -->
 	<footer class="entry-footer">
 		<?php hartlco_entry_footer(); ?>
 	</footer><!-- .entry-footer -->
