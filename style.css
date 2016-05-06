@@ -50,8 +50,8 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 body {
 	font-family: -apple-system, "Helvetica Neue", "Lucida Grande";
 	-webkit-font-smoothing: subpixel-antialiased;
-	font-size:1.1rem;
-	line-height: 1.6;
+	font-size:1.125em;
+	line-height: 1.7;
     text-rendering: optimizeLegibility;
     -moz-font-feature-settings: "liga=1, dlig=1";
     -ms-font-feature-settings: "liga", "dlig";
@@ -457,7 +457,7 @@ body {
 }
 
 .site-content, .site-footer {
-	max-width:660px;
+	max-width:620px;
 	margin: 0 auto;
 	padding: 2rem 1rem;
 }
