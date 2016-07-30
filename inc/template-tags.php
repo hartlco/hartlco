@@ -28,7 +28,7 @@ function hartlco_posted_on() {
 
 	$posted_on = sprintf(
 		esc_html_x( 'Posted on %s', 'post date', 'hartlco' ),
-		'<a href="' . esc_url( get_permalink() ) . '" rel="bookmark">' . $time_string . '</a>'
+		$time_string
 	);
 
 	$byline = sprintf(
