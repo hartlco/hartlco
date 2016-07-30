@@ -37,7 +37,6 @@
 			        <h2 class="blog-description"><?php echo $description; /* WPCS: xss ok. */ ?></h2>
 				</div>
 				<div class="col span_1_of_2 col_right">
-					<img class="ava" src="https://hartl.co/wp-content/uploads/2016/02/2015-near.jpg" width="140rem" height="140rem" alt="Image of Martin Hartl">
 			        <div class="custom-links">
 			            <a href="https://hartl.co/about-me/" target="_self">About me</i></a>&nbsp;&nbsp;
 			            <a href="https://twitter.com/hartlco" target="_blank">Twitter</i></a>&nbsp;&nbsp;

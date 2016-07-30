@@ -89,7 +89,7 @@ add_action( 'after_setup_theme', 'hartlco_setup' );
  * @global int $content_width
  */
 function hartlco_content_width() {
-	$GLOBALS['content_width'] = apply_filters( 'hartlco_content_width', 640 );
+	$GLOBALS['content_width'] = apply_filters( 'hartlco_content_width', 760 );
 }
 add_action( 'after_setup_theme', 'hartlco_content_width', 0 );
 
