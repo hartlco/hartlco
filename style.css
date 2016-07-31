@@ -827,8 +827,19 @@ a:active {
 }
 
 /*--------------------------------------------------------------
-## Asides
+## Asides & Status
 --------------------------------------------------------------*/
+
+.format-aside,
+.format-status {
+	border-style: solid;
+	padding: 10px;
+	border-width: 1px;
+	border-radius: 10px;
+	margin-left: -10px;
+	border-color: #888888;
+}
+
 .blog .format-aside .entry-title,
 .archive .format-aside .entry-title {
 	display: none;
