@@ -14,15 +14,16 @@
 		<?php
 			$linkMeta = get_post_meta(get_the_ID(), "link", true);
 			$linkMetaNew = get_post_meta(get_the_ID(), "linked_list_url", true);
+			$linkAll = $linkMeta ? $linkMeta : $linkMetaNew;
 			if ( is_single() ) {
-				if ($linkMeta || $linkMetaNew) {
-					the_title( '<h1 class="entry-title"><a href="' . $linkMeta . '" rel="bookmark">', '</a></h1>' );
+				if ($linkAll) {
+					the_title( '<h1 class="entry-title"><a href="' . $linkAll . '" rel="bookmark">', '</a></h1>' );
 				} else {
 					the_title( '<h1 class="entry-title">', '</h1>' );
 				}
 			} else {
-				if ($linkMeta || $linkMetaNew) {
-					the_title( '<h2 class="entry-title"><a href="' . $linkMeta . '" rel="bookmark">', '</a></h2>' );
+				if ($linkAll) {
+					the_title( '<h2 class="entry-title"><a href="' . $linkAll . '" rel="bookmark">', '</a></h2>' );
 				} else {
 					the_title( '<h2 class="entry-title"><a href="' . esc_url( get_permalink() ) . '" rel="bookmark">', '</a></h2>' );	
 				}
